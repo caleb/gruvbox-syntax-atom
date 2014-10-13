@@ -1,7 +1,7 @@
 {
   "name": "gruvbox",
   "theme": "syntax",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A Gruvbox theme for Atom.",
   "repository": "https://github.com/isaachess/gruvbox-atom",
   "license": "MIT",
