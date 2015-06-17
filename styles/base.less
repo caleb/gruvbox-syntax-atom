@@ -4,20 +4,42 @@
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
-  .wrap-guide {
-    background-color: @syntax-wrap-guide-color;
+  .line.cursor-line {
+    background-color: @syntax-cursor-line;
   }
 
-  .indent-guide {
-    color: @syntax-indent-guide-color;
+  .invisible {
+    color: @syntax-text-color;
+  }
+
+  .cursor {
+    border-left: 2px solid @syntax-cursor-color;
+  }
+
+  .selection .region {
+    background-color: @syntax-selection-color;
+  }
+
+  .bracket-matcher .region {
+    border-bottom: 1px solid @syntax-cursor-color;
+    box-sizing: border-box;
+    background-color: @syntax-bracket-matcher-background-color;
   }
 
   .invisible-character {
     color: @syntax-invisible-character-color;
   }
 
-  .cursor-line {
-    background-color: @groovy-highlight;
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
+
+  .wrap-guide {
+    background-color: @syntax-wrap-guide-color;
+  }
+
+  .indent-guide:nth-of-type(2n) {
+    box-shadow: @gruvbox-dark1 1px 0px 0px 0px inset;
   }
 
   .gutter {
@@ -40,18 +62,6 @@
   .gutter .line-number:after,
   .fold-marker:after {
     color: @light-gray;
-  }
-
-  .invisible {
-    color: @syntax-text-color;
-  }
-
-  .cursor {
-    color: @syntax-cursor-color;
-  }
-
-  .selection .region {
-    background-color: @syntax-selection-color;
   }
 }
 

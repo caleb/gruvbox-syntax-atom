@@ -1,31 +1,51 @@
 @import "colors";
 
-// This defines all syntax variables that syntax themes must implement when they
-// include a syntax-variables.less file.
+// Custom Syntax Variables -----------------------------------
+
+@syntax-cursor-line: fade(@gruvbox-light0, 4%); // needs to be semi-transparent to show serach results
+@syntax-bracket-matcher-background-color: @gruvbox-dark3;
+
+
+// Official Syntax Variables -----------------------------------
 
 // General colors
-@syntax-text-color: @warm-white;
-@syntax-cursor-color: white;
-@syntax-selection-color: @groovy-highlight;
-@syntax-background-color: @groovy-background;
+@syntax-text-color: @gruvbox-light1;
+@syntax-cursor-color: @gruvbox-light4;
+@syntax-selection-color: @gruvbox-dark2;
+@syntax-selection-flash-color: @gruvbox-light4;
+@syntax-background-color: @gruvbox-dark0;
 
 // Guide colors
-@syntax-wrap-guide-color: @dark-gray;
-@syntax-indent-guide-color: @gray;
-@syntax-invisible-character-color: @gray;
+@syntax-wrap-guide-color: @gruvbox-dark1;
+@syntax-indent-guide-color: @gruvbox-dark2;
+@syntax-invisible-character-color: @gruvbox-dark2;
 
 // For find and replace markers
-@syntax-result-marker-color: @light-gray;
+@syntax-result-marker-color: @gruvbox-yellow;
 @syntax-result-marker-color-selected: white;
 
 // Gutter colors
-@syntax-gutter-text-color: @warm-white;
+@syntax-gutter-text-color: @gruvbox-light1;
 @syntax-gutter-text-color-selected: @syntax-gutter-text-color;
-@syntax-gutter-background-color: @groovy-background;
-@syntax-gutter-background-color-selected: @groovy-highlight;
+@syntax-gutter-background-color: @gruvbox-dark0;
+@syntax-gutter-background-color-selected: @syntax-cursor-line;
 
 // For git diff info. i.e. in the gutter
-@syntax-color-renamed: @blue;
-@syntax-color-added: @green;
-@syntax-color-modified: @orange;
-@syntax-color-removed: @red;
+@syntax-color-renamed: @gruvbox-blue;
+@syntax-color-added: @gruvbox-green;
+@syntax-color-modified: @gruvbox-orange;
+@syntax-color-removed: @gruvbox-red;
+
+// For language entity colors
+// @syntax-color-variable:   @gruvbox-blue;
+// @syntax-color-constant:   @gruvbox-purple;
+// @syntax-color-property:   @gruvbox-blue;
+// @syntax-color-value:      @gruvbox-red;
+// @syntax-color-function:   @gruvbox-green;
+// @syntax-color-method:     @gruvbox-red;
+// @syntax-color-class:      @gruvbox-red;
+// @syntax-color-keyword:    @gruvbox-red;
+// @syntax-color-tag:        @gruvbox-red;
+// @syntax-color-attribute:  @gruvbox-red;
+// @syntax-color-import:     @gruvbox-red;
+// @syntax-color-snippet:    @gruvbox-red;
