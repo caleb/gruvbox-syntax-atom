@@ -1,9 +1,9 @@
 {
-  "name": "gruvbox",
+  "name": "retro-gruvbox",
   "theme": "syntax",
   "version": "0.3.2",
   "description": "A Gruvbox theme for Atom.",
-  "repository": "https://github.com/isaachess/gruvbox-atom",
+  "repository": "https://github.com/caleb/retro-gruvbox-atom",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
