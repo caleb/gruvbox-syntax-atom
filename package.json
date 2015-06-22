@@ -1,8 +1,14 @@
 {
   "name": "retro-gruvbox",
   "theme": "syntax",
-  "version": "0.3.4",
-  "description": "A Gruvbox theme for Atom.",
+  "version": "1.0.0",
+  "description": "A Gruvbox theme for Atom that aims to be just a little groovier",
+  "keywords": [
+    "dark",
+    "green",
+    "orange",
+    "syntax"
+  ],
   "repository": "https://github.com/caleb/retro-gruvbox-atom",
   "license": "MIT",
   "engines": {
