@@ -1,3 +1,2 @@
-## 0.1.0 - First Release
-* Every feature added
-* Every bug fixed
+## 1.0.0 - First Release
+ * Reworked the gruvbox theme off of the one-dark-syntax theme, which is more modular
