@@ -9,7 +9,7 @@
     "orange",
     "syntax"
   ],
-  "repository": "https://github.com/caleb/retro-gruvbox-atom",
+  "repository": "https://github.com/caleb/gruvbox-syntax-atom",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
