@@ -1,7 +1,7 @@
 {
   "name": "gruvbox",
   "theme": "syntax",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A Gruvbox theme for Atom that aims to be just a little groovier",
   "keywords": [
     "dark",
@@ -9,7 +9,7 @@
     "orange",
     "syntax"
   ],
-  "repository": "https://github.com/caleb/retro-gruvbox-atom",
+  "repository": "https://github.com/caleb/gruvbox-syntax-atom",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
