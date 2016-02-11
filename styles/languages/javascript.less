@@ -1,0 +1,27 @@
+.source.js {
+
+  /**
+   * System types and global variables.
+   * - this
+   * - super
+   * - prototype
+   * - process
+   * - module / module.exports
+   * - window / global
+   */
+  .language.variable,
+  .support.type,
+  .support.type .keyword
+    { color: @gruvbox-bright-orange; }
+
+  /**
+   * Make no distiction between classes and functions. (as there is none).
+   * Differ color from string. Don't differ support function from normal function.
+   */
+  .function.name,
+  .class.name,
+  .support.function,
+  .support.class
+    { color: @gruvbox-bright-yellow; }
+
+}
