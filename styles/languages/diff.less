@@ -1,22 +1,22 @@
-.source.diff {
+.syntax--source.syntax--diff {
   color: @gruvbox-light4;
 
-  .meta {
+  .syntax--meta {
     color: @gruvbox-bright-blue;
 
-    &.header.from-file { color: @gruvbox-bright-aqua; }
-    &.header.to-file { color: @gruvbox-bright-aqua; }
-    &.diff.range { color: @gruvbox-bright-yellow; }
-    &.diff.line-number { color: @gruvbox-bright-yellow; opacity: 1; }
+    &.syntax--header.syntax--from-file { color: @gruvbox-bright-aqua; }
+    &.syntax--header.syntax--to-file { color: @gruvbox-bright-aqua; }
+    &.syntax--diff.syntax--range { color: @gruvbox-bright-yellow; }
+    &.syntax--diff.syntax--line-number { color: @gruvbox-bright-yellow; opacity: 1; }
   }
 
-  .markup {
-    &.deleted { color: @gruvbox-bright-red; }
-    &.inserted { color: @gruvbox-bright-green; }
+  .syntax--markup {
+    &.syntax--deleted { color: @gruvbox-bright-red; }
+    &.syntax--inserted { color: @gruvbox-bright-green; }
   }
-  .punctuation {
-    &.deleted { color: @gruvbox-bright-red; }
-    &.inserted { color: @gruvbox-bright-green; }
-    &.range { color: @gruvbox-bright-yellow; }
+  .syntax--punctuation {
+    &.syntax--deleted { color: @gruvbox-bright-red; }
+    &.syntax--inserted { color: @gruvbox-bright-green; }
+    &.syntax--range { color: @gruvbox-bright-yellow; }
   }
 }
