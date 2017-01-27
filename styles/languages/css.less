@@ -1,10 +1,16 @@
 .source.css {
   // highlight properties/values if they are supported
-  .property-name,
+  .property-name {
+    color: @gruvbox-light2;
+  }
+
   .property-value {
     color: @gruvbox-light2;
     &.support {
       color: @syntax-fg;
+    }
+    &.constant {
+      color: @gruvbox-bright-blue;
     }
   }
 }
