@@ -1,7 +1,7 @@
 {
   "name": "gruvbox",
   "theme": "syntax",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A Gruvbox theme for Atom that aims to be just a little groovier",
   "keywords": [
     "dark",
